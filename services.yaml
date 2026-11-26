@@ -12,6 +12,9 @@ services:
     Dantweb\DemodataMall\Shop\SubshopCreator: ~
     Dantweb\DemodataMall\Cms\CmsRenderer: ~
     Dantweb\DemodataMall\Cms\CmsInstaller: ~
+    Dantweb\DemodataMall\Mall\MallPlanner: ~
+    Dantweb\DemodataMall\Mall\ModuleSettingsCopier: ~
+    Dantweb\DemodataMall\Mall\ShippingAssigner: ~
 
     Dantweb\DemodataMall\Command\ListCommand:
         tags:
@@ -21,3 +24,6 @@ services:
         tags:
             - { name: 'console.command', command: 'oe:demodata-mall:install' }
 
+    Dantweb\DemodataMall\Command\CreateMallCommand:
+        tags:
+            - { name: 'console.command', command: 'oe:demodata-mall:create-mall' }

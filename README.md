@@ -38,11 +38,30 @@ The package is an `oxideshop-component`: the OXID composer plugin registers its 
 (`Updating component dantweb/oxideshop_demodata_mall` in the composer output). Nothing changes in
 the shop until you run a command.
 
+## Create a whole mall (all subshops on their domains)
+
+One command creates — or brings up to date — one subshop per vertical on its own domain, ready to sell: catalog,
+start page CMS, the base shop's modules **and module settings**, shipping methods and cost rules for the new
+categories, a theme per shop, mall mode and (optionally) shared customers.
+
+```bash
+vendor/bin/oe-console oe:demodata-mall:create-mall --domain=example.com --dry-run      # plan: shop1/2/3.example.com
+vendor/bin/oe-console oe:demodata-mall:create-mall --domain=example.com --shared-customers \
+  --shop=fashion:apparel:apex-child-3 --shop=electronics:electronics:apex-child-2 --shop=medical-devices:med:apex-child-1
+vendor/bin/oe-console oe:demodata-mall:create-mall --config=docs/examples/mall.example.json
+```
+
+Re-runnable (shops are found by URL). Options, JSON format and the per-shop steps:
+[docs/managing-a-mall.md#create-mall](docs/managing-a-mall.md#create-mall). How to run and check a mall — domains,
+admin, themes, modules, shipping, payment, customers, one-page checkout, troubleshooting:
+[docs/managing-a-mall.md](docs/managing-a-mall.md).
+
 ## Commands
 
 ```bash
 vendor/bin/oe-console oe:demodata-mall:list
 vendor/bin/oe-console oe:demodata-mall:install <vertical> [options]
+vendor/bin/oe-console oe:demodata-mall:create-mall [options]
 ```
 
 (`bin/oe-console` in a project that has the shop as root package.)
@@ -143,5 +162,7 @@ verticals/<id>/pictures/master/... pictures in the layout of source/out/pictures
 src/                               console commands and installers
 tools/generate_images.py           picture generator (Replicate, FLUX)
 tools/generate_cms_images.py       start page mood images from cms.json (Replicate, FLUX)
+docs/managing-a-mall.md            running an EE mall: domains, per-shop vs shared, create-mall, checklist
+docs/examples/mall.example.json    mall file for create-mall --config
 services.yaml                      command registration
 ```
