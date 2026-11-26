@@ -1,0 +1,21 @@
+services:
+    _defaults:
+        autowire: true
+        public: false
+
+    Dantweb\DemodataMall\Catalog\CatalogRepository: ~
+
+    Dantweb\DemodataMall\Catalog\CatalogInstaller: ~
+    Dantweb\DemodataMall\Catalog\CatalogCleaner: ~
+    Dantweb\DemodataMall\Order\OrderPurger: ~
+    Dantweb\DemodataMall\Picture\PictureInstaller: ~
+    Dantweb\DemodataMall\Shop\SubshopCreator: ~
+
+    Dantweb\DemodataMall\Command\ListCommand:
+        tags:
+            - { name: 'console.command', command: 'oe:demodata-mall:list' }
+
+    Dantweb\DemodataMall\Command\InstallCommand:
+        tags:
+            - { name: 'console.command', command: 'oe:demodata-mall:install' }
+

@@ -1,0 +1,4 @@
+.dev-autoload.php
+__pycache__/
+*.pyc
+.idea/

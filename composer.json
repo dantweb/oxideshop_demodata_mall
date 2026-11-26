@@ -1,0 +1,15 @@
+{
+    "name": "dantweb/oxideshop_demodata_mall",
+    "description": "Demo shops for OXID eShop (fashion & apparel, electronics, medical devices), installed with oe-console commands as EE subshops or as a replacement of the current catalog",
+    "type": "oxideshop-component",
+    "license": "GPL-3.0-only",
+    "keywords": ["oxid", "eshop", "demodata", "mall", "multishop"],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dantweb\\DemodataMall\\": "src/"
+        }
+    }
+}
