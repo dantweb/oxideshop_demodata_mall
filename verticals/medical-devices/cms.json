@@ -1,0 +1,251 @@
+{
+  "cta": {
+    "de": "Jetzt entdecken",
+    "en": "Discover now"
+  },
+  "deactivate": [
+    "ab54856e279f74df2ec30805c6e36d3a",
+    "ersatzteile",
+    "felgenzumhalbenpreis",
+    "nexa_x3_blueeagle",
+    "schnelleundleistungsstarkeautos",
+    "sparen",
+    "unserkastenwagen",
+    "fashion"
+  ],
+  "meta": {
+    "description": {
+      "de": "Medizinprodukte im OXID Mall-Demoshop: Diagnostik, Erste Hilfe, Mobilitätshilfen, Therapie und Praxisbedarf von Medivo, Carewell, Thermiq und Praxline.",
+      "en": "Medical devices in the OXID mall demo shop: diagnostics, first aid, mobility aids, therapy and practice supplies from Medivo, Carewell, Thermiq and Praxline."
+    },
+    "keywords": {
+      "de": "Medizinprodukte, Blutdruckmessgerät, Thermometer, Erste Hilfe, Rollator, Therapie, Praxisbedarf",
+      "en": "medical devices, blood pressure monitor, thermometer, first aid, rollator, therapy, practice supplies"
+    }
+  },
+  "footer": {
+    "de": "OXID Mall-Demoshop Medizinprodukte – für Zuhause, Pflege und Praxis",
+    "en": "OXID mall demo shop Medical Devices – for home, care and practice"
+  },
+  "usps": [
+    {
+      "icon": "shield-fill-check",
+      "text": {
+        "de": "Geprüfte Medizinprodukte (CE)",
+        "en": "Certified medical devices (CE)"
+      }
+    },
+    {
+      "icon": "headset",
+      "text": {
+        "de": "Fachberatung durch Pflegekräfte",
+        "en": "Advice from nursing staff"
+      }
+    },
+    {
+      "icon": "truck",
+      "text": {
+        "de": "Diskreter Versand",
+        "en": "Discreet shipping"
+      }
+    },
+    {
+      "icon": "boxes-stacked",
+      "text": {
+        "de": "Praxis- und Mengenpreise",
+        "en": "Practice and volume pricing"
+      }
+    },
+    {
+      "icon": "hand-thumbs-up-fill",
+      "text": {
+        "de": "Kauf auf Rechnung",
+        "en": "Pay by invoice"
+      }
+    }
+  ],
+  "hero": {
+    "main": {
+      "title": {
+        "de": "Gesundheit messen",
+        "en": "Measure your health"
+      },
+      "text": {
+        "de": "Blutdruck, Temperatur, Sauerstoffsättigung: zuverlässige Diagnostik für Zuhause und die Praxis.",
+        "en": "Blood pressure, temperature, oxygen saturation: reliable diagnostics for home and practice."
+      },
+      "image": "hero.jpg",
+      "link": "category:diagnostics"
+    },
+    "side": [
+      {
+        "title": {
+          "de": "Erste Hilfe",
+          "en": "First aid"
+        },
+        "text": {
+          "de": "Verbandkästen nach DIN und Nachfüllsets für Auto, Büro und Betrieb.",
+          "en": "First aid kits to DIN standard and refills for car, office and workplace."
+        },
+        "image": "side-firstaid.jpg",
+        "link": "category:first-aid"
+      },
+      {
+        "title": {
+          "de": "Mobil bleiben",
+          "en": "Stay mobile"
+        },
+        "text": {
+          "de": "Rollatoren, Gehstöcke und Hilfen für ein selbstständiges Leben.",
+          "en": "Rollators, walking sticks and aids for an independent life."
+        },
+        "image": "side-mobility.jpg",
+        "link": "category:mobility"
+      }
+    ]
+  },
+  "promos": [
+    {
+      "title": {
+        "de": "Therapie zu Hause",
+        "en": "Therapy at home"
+      },
+      "image": "promo-therapy.jpg",
+      "link": "category:therapy"
+    },
+    {
+      "title": {
+        "de": "Fieber messen",
+        "en": "Check for fever"
+      },
+      "image": "promo-thermometer.jpg",
+      "link": "category:diagnostics"
+    },
+    {
+      "title": {
+        "de": "Praxisbedarf",
+        "en": "Practice supplies"
+      },
+      "image": "promo-practice.jpg",
+      "link": "category:practice"
+    },
+    {
+      "title": {
+        "de": "Pflege & Alltag",
+        "en": "Care & everyday life"
+      },
+      "image": "promo-care.jpg",
+      "link": "category:mobility"
+    }
+  ],
+  "banner": {
+    "title": {
+      "de": "Alles für Ihre Praxis",
+      "en": "Everything for your practice"
+    },
+    "text": {
+      "de": "Untersuchungsleuchten, Stethoskope und Verbrauchsmaterial – mit Staffelpreisen für Praxen, Pflegedienste und Kliniken.",
+      "en": "Examination lights, stethoscopes and consumables – with tiered prices for practices, care services and clinics."
+    },
+    "image": "banner.jpg",
+    "link": "category:practice",
+    "cta": {
+      "de": "Praxisbedarf ansehen",
+      "en": "View practice supplies"
+    }
+  },
+  "story": {
+    "title": {
+      "de": "Das sind wir",
+      "en": "About us"
+    },
+    "text": {
+      "de": "Wir liefern Medizinprodukte an Privatkunden, Pflegedienste und Arztpraxen. Jedes Produkt ist CE-gekennzeichnet, und unser Team aus Pflegekräften und Medizintechnikern prüft das Sortiment regelmäßig.",
+      "en": "We supply medical devices to private customers, care services and medical practices. Every product carries the CE mark, and our team of nurses and medical technicians reviews the range regularly."
+    },
+    "image": "story.jpg",
+    "link": "content:oximpressum",
+    "cta": {
+      "de": "Mehr erfahren",
+      "en": "Learn more"
+    }
+  },
+  "service": {
+    "title": {
+      "de": "Beratung durch Fachpersonal",
+      "en": "Advice from professionals"
+    },
+    "text": {
+      "de": "Welches Messgerät passt, wie wird der Rollator eingestellt, was gehört in den Verbandkasten? Unsere Pflegekräfte beraten Sie am Telefon und per E-Mail.",
+      "en": "Which monitor is right, how do you adjust the rollator, what belongs in a first aid kit? Our nurses advise you by phone and e-mail."
+    },
+    "image": "service.jpg",
+    "link": "content:kundenservice",
+    "cta": {
+      "de": "Beratung anfragen",
+      "en": "Ask for advice"
+    }
+  },
+  "images": {
+    "hero.jpg": {
+      "prompt": "Friendly doctor measuring the blood pressure of an elderly woman with an upper-arm monitor in a bright living room, calm and reassuring. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "1:1",
+      "width": 900,
+      "height": 900
+    },
+    "side-firstaid.jpg": {
+      "prompt": "Open well-stocked first aid kit with bandages and plasters on a clean white table. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "16:9",
+      "width": 900,
+      "height": 450
+    },
+    "side-mobility.jpg": {
+      "prompt": "Smiling senior woman walking with a lightweight rollator on a sunny park path. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "16:9",
+      "width": 900,
+      "height": 450
+    },
+    "promo-therapy.jpg": {
+      "prompt": "Woman relaxing on a sofa with a soft heating pad on her back at home, warm light. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "4:5",
+      "width": 460,
+      "height": 580
+    },
+    "promo-thermometer.jpg": {
+      "prompt": "Mother checking a child's temperature with an infrared ear thermometer at home. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "4:5",
+      "width": 460,
+      "height": 580
+    },
+    "promo-practice.jpg": {
+      "prompt": "Stethoscope, nitrile gloves and a diagnostic penlight on a clean examination desk. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "4:5",
+      "width": 460,
+      "height": 580
+    },
+    "promo-care.jpg": {
+      "prompt": "Caregiver helping an elderly man stand up from a chair with a walking stick. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "4:5",
+      "width": 460,
+      "height": 580
+    },
+    "banner.jpg": {
+      "prompt": "Wide view of a bright modern medical practice reception with clean white surfaces and plants. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "21:9",
+      "width": 1600,
+      "height": 550
+    },
+    "story.jpg": {
+      "prompt": "Medical technician checking blood pressure monitors on a workbench in a clean bright workshop. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "4:3",
+      "width": 1200,
+      "height": 900
+    },
+    "service.jpg": {
+      "prompt": "Friendly nurse wearing a headset giving advice on the phone at a desk. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "4:3",
+      "width": 1200,
+      "height": 900
+    }
+  }
+}

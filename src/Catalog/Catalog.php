@@ -55,6 +55,11 @@ final class Catalog
         return $this->data['products'] ?? [];
     }
 
+    public function getDirectory(): string
+    {
+        return $this->directory;
+    }
+
     public function getPicturesDirectory(): string
     {
         return $this->directory . '/pictures';

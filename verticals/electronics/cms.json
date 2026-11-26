@@ -1,0 +1,251 @@
+{
+  "cta": {
+    "de": "Jetzt entdecken",
+    "en": "Discover now"
+  },
+  "deactivate": [
+    "ab54856e279f74df2ec30805c6e36d3a",
+    "ersatzteile",
+    "felgenzumhalbenpreis",
+    "nexa_x3_blueeagle",
+    "schnelleundleistungsstarkeautos",
+    "sparen",
+    "unserkastenwagen",
+    "fashion"
+  ],
+  "meta": {
+    "description": {
+      "de": "Elektronik im OXID Mall-Demoshop: Smartphones, Notebooks, Audio, Smart Home und Wearables von Voltaro, Sonique, Pixelon und Homegrid.",
+      "en": "Electronics in the OXID mall demo shop: smartphones, notebooks, audio, smart home and wearables from Voltaro, Sonique, Pixelon and Homegrid."
+    },
+    "keywords": {
+      "de": "Elektronik, Smartphone, Notebook, Kopfhörer, Smart Home, Smartwatch, Wearables, Zubehör",
+      "en": "electronics, smartphone, notebook, headphones, smart home, smartwatch, wearables, accessories"
+    }
+  },
+  "footer": {
+    "de": "OXID Mall-Demoshop Elektronik – Technik, die Ihren Alltag leichter macht",
+    "en": "OXID mall demo shop Electronics – technology that makes everyday life easier"
+  },
+  "usps": [
+    {
+      "icon": "truck",
+      "text": {
+        "de": "Lieferung in 24 Stunden",
+        "en": "Delivery within 24 hours"
+      }
+    },
+    {
+      "icon": "shield-fill-check",
+      "text": {
+        "de": "3 Jahre Garantie",
+        "en": "3-year warranty"
+      }
+    },
+    {
+      "icon": "sync",
+      "text": {
+        "de": "Altgeräte-Rücknahme",
+        "en": "Old device take-back"
+      }
+    },
+    {
+      "icon": "headset",
+      "text": {
+        "de": "Technik-Hotline 7 Tage",
+        "en": "Tech hotline 7 days a week"
+      }
+    },
+    {
+      "icon": "tag",
+      "text": {
+        "de": "Finanzierung ab 0 %",
+        "en": "Financing from 0%"
+      }
+    }
+  ],
+  "hero": {
+    "main": {
+      "title": {
+        "de": "Voltaro X12 Pro",
+        "en": "Voltaro X12 Pro"
+      },
+      "text": {
+        "de": "Brillantes Display, Kamera mit Nachtmodus und Akku für zwei Tage – das neue Flaggschiff ist da.",
+        "en": "Brilliant display, a camera with night mode and a battery for two days – the new flagship is here."
+      },
+      "image": "hero.jpg",
+      "link": "category:smartphones"
+    },
+    "side": [
+      {
+        "title": {
+          "de": "Notebooks",
+          "en": "Notebooks"
+        },
+        "text": {
+          "de": "Leicht für unterwegs, stark am Schreibtisch.",
+          "en": "Light on the go, powerful at the desk."
+        },
+        "image": "side-notebooks.jpg",
+        "link": "category:notebooks"
+      },
+      {
+        "title": {
+          "de": "Smart Home",
+          "en": "Smart home"
+        },
+        "text": {
+          "de": "Licht, Wärme und Sicherheit per App oder Sprache steuern.",
+          "en": "Control light, heating and security by app or voice."
+        },
+        "image": "side-smarthome.jpg",
+        "link": "category:smart-home"
+      }
+    ]
+  },
+  "promos": [
+    {
+      "title": {
+        "de": "Wearables",
+        "en": "Wearables"
+      },
+      "image": "promo-wearables.jpg",
+      "link": "category:wearables"
+    },
+    {
+      "title": {
+        "de": "Noise Cancelling",
+        "en": "Noise cancelling"
+      },
+      "image": "promo-audio.jpg",
+      "link": "category:audio"
+    },
+    {
+      "title": {
+        "de": "Virtual Reality",
+        "en": "Virtual reality"
+      },
+      "image": "promo-vr.jpg",
+      "link": "category:wearables"
+    },
+    {
+      "title": {
+        "de": "Smart heizen",
+        "en": "Smart heating"
+      },
+      "image": "promo-thermostat.jpg",
+      "link": "category:smart-home"
+    }
+  ],
+  "banner": {
+    "title": {
+      "de": "Sound, der den Raum füllt",
+      "en": "Sound that fills the room"
+    },
+    "text": {
+      "de": "Von True-Wireless-Earbuds bis zur Kino-Soundbar: Audio von Sonique für jeden Raum und jede Gelegenheit.",
+      "en": "From true wireless earbuds to the cinema soundbar: Sonique audio for every room and every occasion."
+    },
+    "image": "banner.jpg",
+    "link": "category:audio",
+    "cta": {
+      "de": "Audio entdecken",
+      "en": "Discover audio"
+    }
+  },
+  "story": {
+    "title": {
+      "de": "Das sind wir",
+      "en": "About us"
+    },
+    "text": {
+      "de": "Wir testen jedes Gerät, bevor es in den Shop kommt, und empfehlen nur, was wir selbst nutzen würden. Dazu gehören faire Preise, schnelle Lieferung und ein Team, das Technik erklären kann.",
+      "en": "We test every device before it goes into the shop and only recommend what we would use ourselves. That comes with fair prices, fast delivery and a team that can explain technology."
+    },
+    "image": "story.jpg",
+    "link": "content:oximpressum",
+    "cta": {
+      "de": "Mehr erfahren",
+      "en": "Learn more"
+    }
+  },
+  "service": {
+    "title": {
+      "de": "Technik-Service",
+      "en": "Tech service"
+    },
+    "text": {
+      "de": "Einrichtung, Datenübertragung oder Reparatur: Unsere Techniker helfen per Hotline, Chat oder Fernwartung – sieben Tage die Woche.",
+      "en": "Setup, data transfer or repair: our technicians help by hotline, chat or remote support – seven days a week."
+    },
+    "image": "service.jpg",
+    "link": "content:kundenservice",
+    "cta": {
+      "de": "Service kontaktieren",
+      "en": "Contact service"
+    }
+  },
+  "images": {
+    "hero.jpg": {
+      "prompt": "Sleek modern smartphone and wireless earbuds on a dark desk with a soft blue light glow, premium tech product lifestyle shot. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "1:1",
+      "width": 900,
+      "height": 900
+    },
+    "side-notebooks.jpg": {
+      "prompt": "Thin laptop and a 4K monitor on a minimal home office desk by a window, daylight. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "16:9",
+      "width": 900,
+      "height": 450
+    },
+    "side-smarthome.jpg": {
+      "prompt": "Cosy modern living room in the evening with a smart speaker and warm smart light bulbs. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "16:9",
+      "width": 900,
+      "height": 450
+    },
+    "promo-wearables.jpg": {
+      "prompt": "Runner checking a smartwatch on her wrist during an early morning run in the city. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "4:5",
+      "width": 460,
+      "height": 580
+    },
+    "promo-audio.jpg": {
+      "prompt": "Young man wearing over-ear headphones, eyes closed, enjoying music on a train. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "4:5",
+      "width": 460,
+      "height": 580
+    },
+    "promo-vr.jpg": {
+      "prompt": "Person wearing a white virtual reality headset in a bright living room, playful pose. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "4:5",
+      "width": 460,
+      "height": 580
+    },
+    "promo-thermostat.jpg": {
+      "prompt": "Hand adjusting a modern round smart thermostat on a light wall. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "4:5",
+      "width": 460,
+      "height": 580
+    },
+    "banner.jpg": {
+      "prompt": "Wide view of a modern electronics store with illuminated display tables and blue accent lighting. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "21:9",
+      "width": 1600,
+      "height": 550
+    },
+    "story.jpg": {
+      "prompt": "Engineer testing a circuit board with a multimeter in a bright, clean electronics lab. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "4:3",
+      "width": 1200,
+      "height": 900
+    },
+    "service.jpg": {
+      "prompt": "Friendly support technician wearing a headset smiling at a desk with two monitors. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "4:3",
+      "width": 1200,
+      "height": 900
+    }
+  }
+}

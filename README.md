@@ -104,12 +104,28 @@ Adds the vertical next to the existing catalog.
 | `--shop-url`       | subshop | own URL of the subshop                                           |
 | `--no-modules`     | subshop | do not activate the modules of shop 1 in the subshop             |
 | `--no-pictures`    | all     | do not copy pictures                                            |
+| `--no-cms`         | subshop, replace | keep the shop's start page CMS content                  |
+| `--cms`            | add     | also install the start page CMS content                          |
 
 Every install can run again: records have stable ids, so a second run updates them.
 
+### Start page CMS content
+
+Each vertical ships its start page content in `verticals/<id>/cms.json`: intro teasers
+(`oxstartslot1`–`oxstartslot4`), the USP bars (`oxheaderusps`, `oxstartusps`), start page meta texts and
+the footer line, in German and English, rendered in the APEX shortcode markup. Teaser links point to the
+vertical's own categories (resolved to the shop's SEO URLs at install time). The car landing pages of the
+EE demo data are deactivated in that shop.
+
+- `subshop` and `replace` install it (skip with `--no-cms`)
+- `add` installs it only with `--cms`, because it replaces the start page of the target shop
+
+Mood images are optional: `tools/generate_cms_images.py <vertical>` generates them from the `images`
+block of `cms.json` into `pictures/ddmedia/mall-<vertical>/`. Without them the teasers use the category
+pictures; run the install again after generating to switch to the mood images.
+
 ### What is not changed
 
-- the start page CMS content (banners and teasers of the theme)
 - users, payment and delivery settings, languages and currencies
 - texts: language `de` and `en` of the shop get the catalog texts; other shop languages get the English text
 
@@ -122,8 +138,10 @@ See [docs/generating-a-shop.md](docs/generating-a-shop.md) for the steps and
 
 ```
 verticals/<id>/catalog.json        texts, prices, structure
+verticals/<id>/cms.json            start page CMS content and mood image prompts
 verticals/<id>/pictures/master/... pictures in the layout of source/out/pictures/master
 src/                               console commands and installers
 tools/generate_images.py           picture generator (Replicate, FLUX)
+tools/generate_cms_images.py       start page mood images from cms.json (Replicate, FLUX)
 services.yaml                      command registration
 ```

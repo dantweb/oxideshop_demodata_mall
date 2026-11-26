@@ -10,6 +10,8 @@ services:
     Dantweb\DemodataMall\Order\OrderPurger: ~
     Dantweb\DemodataMall\Picture\PictureInstaller: ~
     Dantweb\DemodataMall\Shop\SubshopCreator: ~
+    Dantweb\DemodataMall\Cms\CmsRenderer: ~
+    Dantweb\DemodataMall\Cms\CmsInstaller: ~
 
     Dantweb\DemodataMall\Command\ListCommand:
         tags:
