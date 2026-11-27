@@ -1,0 +1,30 @@
+{
+  "domain": "example.com",
+  "scheme": "https",
+  "hostPattern": "shop{n}",
+  "sharedCustomers": true,
+  "mallMode": 0,
+  "deliveryRules": [
+    "Standard",
+    "Express"
+  ],
+  "shops": [
+    {
+      "vertical": "fashion",
+      "host": "apparel",
+      "theme": "apex-child-3",
+      "name": "Apparel"
+    },
+    {
+      "vertical": "electronics",
+      "host": "electronics",
+      "theme": "apex-child-2"
+    },
+    {
+      "vertical": "medical-devices",
+      "host": "med.example.org",
+      "theme": "apex-child-1",
+      "name": "Medical Store"
+    }
+  ]
+}

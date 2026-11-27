@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Dantweb\DemodataMall\Command;
 
 use Dantweb\DemodataMall\Catalog\Catalog;
+use Dantweb\DemodataMall\Cms\CmsInstaller;
 use Dantweb\DemodataMall\Catalog\CatalogCleaner;
 use Dantweb\DemodataMall\Catalog\CatalogInstaller;
 use Dantweb\DemodataMall\Catalog\CatalogRepository;
@@ -33,7 +34,8 @@ class InstallCommand extends Command
         private CatalogCleaner $catalogCleaner,
         private OrderPurger $orderPurger,
         private PictureInstaller $pictureInstaller,
-        private SubshopCreator $subshopCreator
+        private SubshopCreator $subshopCreator,
+        private CmsInstaller $cmsInstaller
     ) {
         parent::__construct();
     }
@@ -53,6 +55,8 @@ class InstallCommand extends Command
             ->addOption('shop-url', null, InputOption::VALUE_REQUIRED, 'subshop mode: own URL of the subshop')
             ->addOption('no-modules', null, InputOption::VALUE_NONE, 'subshop mode: do not activate the modules of shop 1')
             ->addOption('no-pictures', null, InputOption::VALUE_NONE, 'do not copy pictures to out/pictures')
+            ->addOption('no-cms', null, InputOption::VALUE_NONE, 'subshop/replace mode: keep the CMS start page content of the shop')
+            ->addOption('cms', null, InputOption::VALUE_NONE, 'add mode: also install the CMS start page content (replaces the shop\'s)')
             ->addOption('yes', 'y', InputOption::VALUE_NONE, 'replace mode: do not ask for confirmation')
             ->setHelp(<<<'HELP'
 Examples:
@@ -112,6 +116,7 @@ HELP);
             '--mode=' . self::MODE_ADD,
             '--shop-id=' . $shopId,
             $input->getOption('no-pictures') ? '--no-pictures' : null,
+            $input->getOption('no-cms') ? null : '--cms',
         ]);
         passthru(implode(' ', array_map('escapeshellarg', $command)), $exitCode);
         if ($exitCode !== 0) {
@@ -151,11 +156,12 @@ HELP);
             $output->writeln(sprintf('  %-28s %d', $type, $count));
         }
 
-        return $this->add($catalog, $input, $output);
+        return $this->add($catalog, $input, $output, !$input->getOption('no-cms'));
     }
 
-    private function add(Catalog $catalog, InputInterface $input, OutputInterface $output): int
+    private function add(Catalog $catalog, InputInterface $input, OutputInterface $output, ?bool $withCms = null): int
     {
+        $withCms ??= (bool) $input->getOption('cms');
         $shopId = (int) Registry::getConfig()->getShopId();
         $output->writeln(sprintf('Installing "%s" into shop %d ...', $catalog->getId(), $shopId));
         foreach ($this->catalogInstaller->install($catalog) as $type => $count) {
@@ -170,6 +176,11 @@ HELP);
                 $pictures['copied'],
                 $pictures['cacheRemoved']
             ));
+        }
+
+        if ($withCms && $this->cmsInstaller->has($catalog)) {
+            $cms = $this->cmsInstaller->install($catalog);
+            $output->writeln(sprintf('  %-28s %d (deactivated: %d)', 'cms pages', $cms['pages'], $cms['deactivated']));
         }
 
         $this->clearCache($output);

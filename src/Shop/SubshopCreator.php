@@ -90,15 +90,19 @@ class SubshopCreator
     }
 
     /**
-     * Activates in $shopId every module that is active in the base shop.
+     * Activates in $shopId every module that is active in the base shop (except $skipModuleIds).
      *
+     * @param list<string> $skipModuleIds
      * @return array{activated: list<string>, failed: array<string, string>}
      */
-    public function activateBaseShopModules(int $shopId): array
+    public function activateBaseShopModules(int $shopId, array $skipModuleIds = []): array
     {
         $result = ['activated' => [], 'failed' => []];
         foreach ($this->shopConfigurationDaoBridge->get()->getModuleConfigurations() as $moduleConfiguration) {
             $moduleId = $moduleConfiguration->getId();
+            if (in_array($moduleId, $skipModuleIds, true)) {
+                continue;
+            }
             if (!$moduleConfiguration->isActivated() || $this->moduleActivationBridge->isActive($moduleId, $shopId)) {
                 continue;
             }

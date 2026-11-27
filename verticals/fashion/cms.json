@@ -1,0 +1,251 @@
+{
+  "cta": {
+    "de": "Jetzt entdecken",
+    "en": "Discover now"
+  },
+  "deactivate": [
+    "ab54856e279f74df2ec30805c6e36d3a",
+    "ersatzteile",
+    "felgenzumhalbenpreis",
+    "nexa_x3_blueeagle",
+    "schnelleundleistungsstarkeautos",
+    "sparen",
+    "unserkastenwagen",
+    "fashion"
+  ],
+  "meta": {
+    "description": {
+      "de": "Mode & Bekleidung im OXID Mall-Demoshop: Damen, Herren, Kinder, Schuhe und Accessoires von Nordlys, Urban Fern, Velora und Kestrel Outdoor.",
+      "en": "Fashion & apparel in the OXID mall demo shop: women, men, kids, shoes and accessories from Nordlys, Urban Fern, Velora and Kestrel Outdoor."
+    },
+    "keywords": {
+      "de": "Mode, Bekleidung, Damenmode, Herrenmode, Kindermode, Schuhe, Accessoires, Strick, Sneaker",
+      "en": "fashion, apparel, womenswear, menswear, kidswear, shoes, accessories, knitwear, sneakers"
+    }
+  },
+  "footer": {
+    "de": "OXID Mall-Demoshop Mode & Bekleidung – zeitlose Stücke für jeden Tag",
+    "en": "OXID mall demo shop Fashion & Apparel – timeless pieces for every day"
+  },
+  "usps": [
+    {
+      "icon": "truck",
+      "text": {
+        "de": "Kostenloser Versand ab 50 €",
+        "en": "Free shipping from €50"
+      }
+    },
+    {
+      "icon": "sync",
+      "text": {
+        "de": "30 Tage Rückgabe",
+        "en": "30-day returns"
+      }
+    },
+    {
+      "icon": "shield-fill-check",
+      "text": {
+        "de": "Nachhaltige Materialien",
+        "en": "Sustainable materials"
+      }
+    },
+    {
+      "icon": "headset",
+      "text": {
+        "de": "Stilberatung per Chat",
+        "en": "Style advice via chat"
+      }
+    },
+    {
+      "icon": "gift",
+      "text": {
+        "de": "Gratis Geschenkverpackung",
+        "en": "Free gift wrapping"
+      }
+    }
+  ],
+  "hero": {
+    "main": {
+      "title": {
+        "de": "Die neue Saison",
+        "en": "The new season"
+      },
+      "text": {
+        "de": "Weiche Wolle, warme Töne, klare Schnitte: unsere Damenkollektion für Herbst und Winter.",
+        "en": "Soft wool, warm tones, clean cuts: our womenswear collection for autumn and winter."
+      },
+      "image": "hero.jpg",
+      "link": "category:women"
+    },
+    "side": [
+      {
+        "title": {
+          "de": "Herren",
+          "en": "Men"
+        },
+        "text": {
+          "de": "Oxfordhemden, Chinos und Jacken, die zu allem passen.",
+          "en": "Oxford shirts, chinos and jackets that go with everything."
+        },
+        "image": "side-men.jpg",
+        "link": "category:men"
+      },
+      {
+        "title": {
+          "de": "Kinder",
+          "en": "Kids"
+        },
+        "text": {
+          "de": "Robust, bunt und bereit für jede Pfütze.",
+          "en": "Tough, colourful and ready for every puddle."
+        },
+        "image": "side-kids.jpg",
+        "link": "category:kids"
+      }
+    ]
+  },
+  "promos": [
+    {
+      "title": {
+        "de": "Neu: Strick",
+        "en": "New: knitwear"
+      },
+      "image": "promo-knit.jpg",
+      "link": "category:women"
+    },
+    {
+      "title": {
+        "de": "Sneaker-Saison",
+        "en": "Sneaker season"
+      },
+      "image": "promo-sneaker.jpg",
+      "link": "category:shoes"
+    },
+    {
+      "title": {
+        "de": "Accessoires",
+        "en": "Accessories"
+      },
+      "image": "promo-accessories.jpg",
+      "link": "category:accessories"
+    },
+    {
+      "title": {
+        "de": "Herren-Basics",
+        "en": "Men's basics"
+      },
+      "image": "promo-men.jpg",
+      "link": "category:men"
+    }
+  ],
+  "banner": {
+    "title": {
+      "de": "Zeitlose Stücke statt schneller Trends",
+      "en": "Timeless pieces instead of fast trends"
+    },
+    "text": {
+      "de": "Wir wählen Materialien, die lange halten, und Schnitte, die Sie viele Saisons tragen.",
+      "en": "We choose materials that last and cuts you will wear for many seasons."
+    },
+    "image": "banner.jpg",
+    "link": "category:women",
+    "cta": {
+      "de": "Kollektion ansehen",
+      "en": "View the collection"
+    }
+  },
+  "story": {
+    "title": {
+      "de": "Das sind wir",
+      "en": "About us"
+    },
+    "text": {
+      "de": "Vom Entwurf bis zur letzten Naht: Unsere Marken arbeiten mit kleinen Ateliers und fairen Partnern in Europa zusammen. So entstehen Kleidungsstücke, die gut aussehen und gut gemacht sind.",
+      "en": "From the first sketch to the last seam: our brands work with small ateliers and fair partners in Europe. The result is clothing that looks good and is well made."
+    },
+    "image": "story.jpg",
+    "link": "content:oximpressum",
+    "cta": {
+      "de": "Mehr erfahren",
+      "en": "Learn more"
+    }
+  },
+  "service": {
+    "title": {
+      "de": "Persönliche Stilberatung",
+      "en": "Personal style advice"
+    },
+    "text": {
+      "de": "Größe unsicher oder auf der Suche nach dem passenden Outfit? Unser Team berät Sie per Chat, Telefon oder E-Mail und hilft auch beim Umtausch.",
+      "en": "Not sure about the size or looking for the right outfit? Our team advises you via chat, phone or e-mail and also helps with exchanges."
+    },
+    "image": "service.jpg",
+    "link": "content:kundenservice",
+    "cta": {
+      "de": "Kontakt aufnehmen",
+      "en": "Get in touch"
+    }
+  },
+  "images": {
+    "hero.jpg": {
+      "prompt": "Woman in an elegant camel wool coat and cream knit sweater walking through a sunlit autumn city street, warm tones, shallow depth of field, fashion editorial. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "1:1",
+      "width": 900,
+      "height": 900
+    },
+    "side-men.jpg": {
+      "prompt": "Man in a light blue oxford shirt and beige chinos leaning against a brick wall in soft daylight, menswear lookbook. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "16:9",
+      "width": 900,
+      "height": 450
+    },
+    "side-kids.jpg": {
+      "prompt": "Two happy children in colourful raincoats and rubber boots jumping in puddles in an autumn park. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "16:9",
+      "width": 900,
+      "height": 450
+    },
+    "promo-knit.jpg": {
+      "prompt": "Close-up of a woman wearing a cream cable-knit wool sweater, cosy interior, soft window light. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "4:5",
+      "width": 460,
+      "height": 580
+    },
+    "promo-sneaker.jpg": {
+      "prompt": "Pair of clean white leather sneakers on light concrete steps, urban morning light. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "4:5",
+      "width": 460,
+      "height": 580
+    },
+    "promo-accessories.jpg": {
+      "prompt": "Flat lay of a brown leather belt, a checked wool scarf, a knit beanie and a canvas tote bag on a light oak table. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "4:5",
+      "width": 460,
+      "height": 580
+    },
+    "promo-men.jpg": {
+      "prompt": "Folded men's shirts and chinos on a wooden shelf in a bright minimalist boutique. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "4:5",
+      "width": 460,
+      "height": 580
+    },
+    "banner.jpg": {
+      "prompt": "Wide view of a minimalist fashion boutique with clothing rails, warm lights and neutral colours. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "21:9",
+      "width": 1600,
+      "height": 550
+    },
+    "story.jpg": {
+      "prompt": "Tailor's hands measuring and pinning fabric on a workbench in a bright atelier. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "4:3",
+      "width": 1200,
+      "height": 900
+    },
+    "service.jpg": {
+      "prompt": "Friendly sales assistant helping a smiling customer choose a jacket in a fashion boutique. Photorealistic editorial photograph, natural light, high detail, no text, no letters, no logo, no watermark.",
+      "aspect_ratio": "4:3",
+      "width": 1200,
+      "height": 900
+    }
+  }
+}
